@@ -50,7 +50,6 @@ Pytest, unittest etc
 
 Pytest collects all files and functions starting with 'test'
 
-
 # Selenium basics
 
 Steps:
@@ -62,3 +61,18 @@ Steps:
     
 4. Automate the steps with selenium script
 5. apply pytest framework set up
+
+## Implementation with Pytest
+1. Impelemented all steps with selenium
+    *At this stage you can run as regular python file*
+2. Put all steps to one function that pytest recognize (it should start with 'test_...py'), to generate PASS/FAIL. 
+    - you should have module name starting with test
+    - you should have function names starting with test
+3. Run following command to run all pytest files
+    ```python
+    pytest -v -s
+    # run all test functions in the module
+    pytest -v -s selenium1/test_search1.py
+    # run one test in the 
+    pytest -v -s selenium1/test_search1.py::test_searching
+    ```
