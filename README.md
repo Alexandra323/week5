@@ -51,3 +51,14 @@ Pytest, unittest etc
 Pytest collects all files and functions starting with 'test'
 
 
+# Selenium basics
+
+Steps:
+1. Download and Install from command line:
+    pip install selenium
+2. Intro to test framework
+3. Create basic script (manual) to automate 
+    Test Case: Searching 'T-shirt' on automationpractice.com web store
+    
+4. Automate the steps with selenium script
+5. apply pytest framework set up
