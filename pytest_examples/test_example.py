@@ -27,5 +27,7 @@ def test_review_dinner_negative():
     talk("John")
     invite_to_dinner()
     satisfied = goodbye("John", 4) 
-    assert satisfied == True
+    assert satisfied == False
+
+    
 
