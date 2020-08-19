@@ -33,4 +33,7 @@ def test_searching():
     driver.quit()
 def test_method():
     pass
+
+def test_method_2(): 
+    pass
     
