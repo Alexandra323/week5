@@ -31,3 +31,5 @@ def test_searching():
     time.sleep(5)
     # step: 6 - closing the browser
     driver.quit()
+def new_method():
+    pass
